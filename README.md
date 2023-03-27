@@ -12,6 +12,7 @@ He usado useEffect para evitar que la pagina solo se cargue cuando llamamos a la
 He separado la logica con customHook.
 También he usado test de Endpoint para comprobar que todo funcione bien.
 
+Tambien, para linting he utilizado la herramienta Eslint Standard
 ## Autor
 **Miguel Ledesma**
 
