@@ -1,6 +1,9 @@
+
+
 body {
   background-color: blanchedalmond;
 }
+
 main {
   display: flex;
   flex-direction: column;
@@ -9,19 +12,29 @@ main {
   width: 90%;
   max-width: 800px;
 }
+.content-spinner-reactstrap {
+  display: flex;
+  justify-content: center;
+  padding-top: 10rem;
+}
 section {
   display: grid;
   place-items: center;
-  grid-template-columns: repeat(auto-fill, minmax(16rem, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(16rem, 11fr));
   gap: 2rem;
+}
+section p {
+  font-size: large;
+  color: rgb(159, 91, 3);
+  font-weight: 600;
 }
 section img {
   width: 100%;
 }
 section button {
-  width: 10rem;
-  height: 2rem;
-  padding: .5rem;
+  grid-column: 1/-1;
+  width: 45%;
+  padding: .75rem;
   background-color: tomato;
   border: none;
   color: white;
@@ -31,7 +44,6 @@ section button {
   transition: .3s;
 }
 section button:hover {
-  width: 22rem;
-  height: 3rem;
+  width: 24rem;
   font-size: 1.2rem;
 }
